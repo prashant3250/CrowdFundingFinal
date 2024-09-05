@@ -1,0 +1,38 @@
+{
+  "name": "crowdfunding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mailchimp-marketing": "^0.0.1-security",
+    "mocha": "^9.1.2",
+    "mongoose": "^8.5.2",
+    "next": "^14.2.5",
+    "next-routes": "^1.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-share": "^5.1.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "solc": "^0.4.17",
+    "web3": "^1.6.0"
+  }
+}
